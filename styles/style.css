@@ -10,7 +10,7 @@ padding: 0;
     justify-content: space-between;
     align-items: flex-start;
     width: 100%;
-    margin-top: -10px;
+    margin-top: 20px;
 }
 
 .nav-bar .spotify-logo {
@@ -30,9 +30,18 @@ padding: 0;
 }
 
 .music-for-everyone {
-    background-image:url(./images/landing.jpg);
+/*     
+  background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: cover; */
     color: white;
-    border: yellowgreen solid 5px;
+    background-image: url("images/landing.jpg");
+}
+
+.music-for-everyone h1 img {
+    width: 100%;
+    margin-top: 60px;
 }
 
 
