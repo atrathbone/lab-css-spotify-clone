@@ -1,3 +1,42 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+.nav-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: -10px;
+}
+
+.nav-bar .spotify-logo {
+    height: 50px;
+    margin-left: 30px;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    width: 15%;
+    margin-right: 30px;
+}
+
+.music-for-everyone {
+    background-image:url(./images/landing.jpg);
+    color: white;
+    border: yellowgreen solid 5px;
+}
+
+
+
 /*
 Colors:
 
