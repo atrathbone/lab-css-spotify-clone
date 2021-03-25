@@ -30,18 +30,38 @@ padding: 0;
 }
 
 .music-for-everyone {
-/*     
-  background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
-  background-position: 0% 0%;
-  background-repeat: no-repeat;
-  background-size: cover; */
     color: white;
-    background-image: url("images/landing.jpg");
+    background-image: url("../images/landing.jpg");
+    width: 100%;
+    margin-top: 50px;
+    height: 650px;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
 }
 
-.music-for-everyone h1 img {
-    width: 100%;
-    margin-top: 60px;
+.music-for-everyone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.whats-on {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.whats-on img {
+    height: 100px;
+}
+
+.whats-on p {
+    font-size: 1rem;
 }
 
 
